@@ -1,5 +1,7 @@
 #Student Example in OOP to get student name and marks and get average 
+
 class student: 
+    #
     def __init__(self, name ):
         self.name= name
         self.marks=[]
@@ -18,6 +20,11 @@ s.add_marks(20)
 s.add_marks(30)
 s.add_marks(40)
 s.add_marks(50)
+
 print (f'the List you make it {s.marks}')
 print (f"The average of this numbers is equal: {int(s.avg())}")
 
+# the out put will be :
+# welcome moahmmed to this school
+# the List you make it [10, 20, 30, 40, 50]
+# The average of this numbers is equal: 30
