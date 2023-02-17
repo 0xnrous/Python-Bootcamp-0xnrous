@@ -1,4 +1,4 @@
-#Calculator that take two inputs and return sum and Multiblication etc   
+#Calculator that take two inputs and return sum and Multiplication etc   
 
 class Calcu:
     def __init__(self , Num1 , Num2):
@@ -18,3 +18,10 @@ c.Sum()
 c.Subs()
 c.Mull()
 c.Div()
+
+# the output will be : 
+
+# the Sumation of two numbers is: 90
+# the Substruction of two numbers is: 30
+# the Multiblication of two numbers is: 1800
+# the Division of two numbers is: 2
