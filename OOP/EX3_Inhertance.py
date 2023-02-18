@@ -1,3 +1,5 @@
+# this example for inhertance time from data class 
+
 class Date():
     def __init__(self):
         self.date = "17-03-2023 "
